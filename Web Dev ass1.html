@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        form {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Learn more about me and explore the content below.</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Myself Himanshu, a Y22 pursuing Electrical engeneering from IIT Kanpur</p>
+        <p>This website is mainly for if you want to contact me asking about any topic by providing phone no., email and topic.</p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <h2>Image Gallery</h2>
+        <img src="C:\Users\Himanshu\Downloads\IIT_Kanpur_Logo.svg.png" alt="IIT Kanpur logo">
+        <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIIT_Kanpur&psig=AOvVaw11Ea1U1ZMelHw8IWHgM69g&ust=1702703610848000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCP56LYkIMDFQAAAAAdAAAAABAI">Image Source</a></p>
+
+        <img src="C:\Users\Himanshu\Downloads\iitk.jpeg" alt="IITK">
+        <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhome.iitk.ac.in%2F~ssahay%2F&psig=AOvVaw11Ea1U1ZMelHw8IWHgM69g&ust=1702703610848000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCP56LYkIMDFQAAAAAdAAAAABAD">Image Source</a></p>
+
+        <img src="C:\Users\Himanshu\Downloads\download.jpg" alt="Hall 3 IIK">
+        <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fhall3iitk%2F&psig=AOvVaw0TXhr0YrEUeM5cUHFg0H5l&ust=1702703730375000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPj3w-rXkIMDFQAAAAAdAAAAABAD">Image Source</a></p>
+    </section>
+
+    <section>
+        <h2>Course Timetable (Previous Semester)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>10:00 AM - 12:00 PM
+                        <p>2:00 PM - 4:00 PM</p>
+                        <p>4:00 PM - 6:00 PM</p>
+                    </td>
+                    <td>Mathematics
+                        <p>Physics</p>
+                        <p>Computer Science</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>2:00 PM - 4:00 PM</td>
+                    <td>Physics</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10:00 AM - 12:00 PM
+                        <p>1:00 PM - 3:00 PM</p>
+                    </td>
+                    <td>Mathematics
+                        <p>Computer Science</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>
